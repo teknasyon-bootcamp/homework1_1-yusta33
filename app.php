@@ -9,6 +9,8 @@ if ($age >= 0 && $age <= 14) {    // Yası 0-14 aralıgında olan kisiler icin
     echo "Yetişkin";
 } elseif (64 < $age) { // Yası 15-24 aralıgında olan kisiler icin
     echo "Yaşlı";
+} else { // Sartların hicbiri olmazsa
+    echo "Lütfen 0'dan büyük sayı giriniz.";
 }
 /**
  * Bu ödevde age değişkeni içerisinde yer alan yaş değerinin bulunduğu
